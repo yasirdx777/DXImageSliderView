@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         imageSliderView.itemZoomScale = 1
         imageSliderView.itemSpacing = 0
         imageSliderView.initialIndex = 1
-        imageSliderView.timeInterval = 6
+        imageSliderView.timeInterval = 3
         imageSliderView.isAutomatic = true
         imageSliderView.isInfinite = true
         imageSliderView.itemSize = CGSize(width: self.view.frame.width, height: self.view.frame.width /  imageSliderViewRatioToTheScreen)
@@ -75,7 +75,7 @@ extension ViewController: DXImageSliderViewProtocol {
     
     func imageSliderViewConfigurePageControl(_ imageSliderView: DXImageSliderView, pageControl: DXPageControl) {
         pageControl.isHidden = false
-        pageControl.currentPageIndicatorTintColor =  .blue
+        pageControl.currentPageIndicatorTintColor =  .orange
         pageControl.pageIndicatorTintColor = .lightGray
         pageControl.frame = CGRect(x: 0, y: imageSliderView.bounds.height-25, width: imageSliderView.bounds.width, height: 25)
     }

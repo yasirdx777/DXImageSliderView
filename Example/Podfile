@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'DXImageSliderView_Example' do
   pod 'DXImageSliderView', :path => '../'
+  pod 'Kingfisher'
 
   target 'DXImageSliderView_Tests' do
     inherit! :search_paths

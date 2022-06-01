@@ -1,15 +1,22 @@
 # DXImageSliderView
 
-[![CI Status](https://img.shields.io/travis/15304192/DXImageSliderView.svg?style=flat)](https://travis-ci.org/15304192/DXImageSliderView)
 [![Version](https://img.shields.io/cocoapods/v/DXImageSliderView.svg?style=flat)](https://cocoapods.org/pods/DXImageSliderView)
 [![License](https://img.shields.io/cocoapods/l/DXImageSliderView.svg?style=flat)](https://cocoapods.org/pods/DXImageSliderView)
 [![Platform](https://img.shields.io/cocoapods/p/DXImageSliderView.svg?style=flat)](https://cocoapods.org/pods/DXImageSliderView)
 
+## Features
+
+- Easy to use
+- Light weight
+- Customizable Page controller
+- Touch to pause auto scrolling
+
+
+![alt text](https://raw.githubusercontent.com/yasirdx777/DXVideoPlay/1.0.0/Example/DXImageSliderView/preview.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -22,7 +29,7 @@ pod 'DXImageSliderView'
 
 ## Author
 
-15304192, yasir.romaya@gmail.com
+Yasir Romaya, yasir.romaya@gmail.com
 
 ## License
 

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DXImageSliderView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DXImageSliderView.'
+  s.version          = '1.0.0'
+  s.summary          = 'A light weight image slider view with page controller which easy to use and modify.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'A light weight image slider view with page controller which easy to use and modify.'
                        DESC
 
-  s.homepage         = 'https://github.com/15304192/DXImageSliderView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/yasirdx777/DXImageSliderView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '15304192' => 'yasir.romaya@gmail.com' }
-  s.source           = { :git => 'https://github.com/15304192/DXImageSliderView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'yasirdx777' => 'yasir.romaya@gmail.com' }
+  s.source           = { :git => 'https://github.com/yasirdx777/DXImageSliderView.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.instagram.com/yasirdx777'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'DXImageSliderView/Classes/**/*'
+  s.source_files = 'Classes/**/*.*'
   
-  # s.resource_bundles = {
-  #   'DXImageSliderView' => ['DXImageSliderView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
+  
+  s.platforms = {"ios": "11.0"}
 end

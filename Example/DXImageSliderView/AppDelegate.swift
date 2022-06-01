@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  DXImageSliderView
 //
-//  Created by 15304192 on 06/01/2022.
-//  Copyright (c) 2022 15304192. All rights reserved.
+//  Created by Yasir Romaya on 06/01/2022.
+//  Copyright (c) 2022 Yasir Romaya. All rights reserved.
 //
 
 import UIKit

@@ -1,6 +1,6 @@
 //
 //  DXImageSliderLayout.swift
-//  DXImageSliderLayout
+//  DXImageSliderView
 //
 //  Created by Yasir Romaya on 2022/6/1.
 //  Copyright © 2022 Yasir Romaya. All rights reserved.
@@ -43,7 +43,7 @@ class DXImageSliderLayout: UICollectionViewFlowLayout {
                 if scrollDirection == .horizontal {
                     absOffset = abs(attri.center.x-centerX)
                     let distance = itemSize.width + minimumLineSpacing
-                    if absOffset < distance { /// 当前index
+                    if absOffset < distance {
                         scale = (1-absOffset/distance)*(self.scale-1) + 1
                     }
                 } else {

@@ -1,6 +1,6 @@
 //
 //  DXPageControl.swift
-//  DXPageControl
+//  DXImageSliderView
 //
 //  Created by Yasir Romaya on 2022/6/1.
 //  Copyright © 2022 Yasir Romaya. All rights reserved.

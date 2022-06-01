@@ -1,5 +1,5 @@
 PODS:
-  - DXImageSliderView (1.0.0)
+  - DXImageSliderView (1.0.1)
   - Kingfisher (4.10.1)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DXImageSliderView: a76f3b310ca85276ac76804015addfdc78236c66
+  DXImageSliderView: d065d9f429c74410c3deb5978e5834fa46861fbf
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
 
 PODFILE CHECKSUM: ef929e0fec6f3cacd66577094cd42b6a35d8a048

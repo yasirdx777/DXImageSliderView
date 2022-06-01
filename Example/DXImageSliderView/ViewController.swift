@@ -15,13 +15,13 @@ class CustomCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
         imageView.frame = contentView.bounds
         imageView.contentMode = .scaleAspectFill
         
         contentView.addSubview(imageView)
     }
     
-    @available(*, unavailable)
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -45,13 +45,14 @@ class ViewController: UIViewController {
         imageSliderView.isAutomatic = true
         imageSliderView.isInfinite = true
         imageSliderView.itemSize = CGSize(width: self.view.frame.width, height: self.view.frame.width /  imageSliderViewRatioToTheScreen)
+        imageSliderView.center = self.view.center
         return imageSliderView
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.view.addSubview(imageSliderView)
-        imageSliderView.center = self.view.center
     }
 
 }

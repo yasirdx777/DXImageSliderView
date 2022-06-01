@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DXImageSliderView'
-  s.version          = '1.0.0'
-  s.summary          = 'A light weight image slider view with page controller which easy to use and modify.'
+  s.version          = '1.0.1'
+  s.summary          = 'A lightweight image slider view with a page controller which easy to use and modify.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'A light weight image slider view with page controller which easy to use and modify.'
+'A lightweight image slider view with a page controller which easy to use and modify.'
                        DESC
 
   s.homepage         = 'https://github.com/yasirdx777/DXImageSliderView'

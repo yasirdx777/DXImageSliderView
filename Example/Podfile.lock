@@ -1,0 +1,16 @@
+PODS:
+  - DXImageSliderView (0.1.0)
+
+DEPENDENCIES:
+  - DXImageSliderView (from `../`)
+
+EXTERNAL SOURCES:
+  DXImageSliderView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DXImageSliderView: 92a4b3c480f1eb3c5bad4a4624785877ba4d807b
+
+PODFILE CHECKSUM: 63614fceaba1826d56a802ab2e6020a2ce705722
+
+COCOAPODS: 1.11.3

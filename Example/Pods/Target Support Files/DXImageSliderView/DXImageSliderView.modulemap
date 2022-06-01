@@ -1,0 +1,6 @@
+framework module DXImageSliderView {
+  umbrella header "DXImageSliderView-umbrella.h"
+
+  export *
+  module * { export * }
+}

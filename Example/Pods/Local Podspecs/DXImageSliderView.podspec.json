@@ -1,0 +1,22 @@
+{
+  "name": "DXImageSliderView",
+  "version": "0.1.0",
+  "summary": "A short description of DXImageSliderView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15304192/DXImageSliderView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15304192": "yasir.romaya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/15304192/DXImageSliderView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DXImageSliderView/Classes/**/*"
+}
